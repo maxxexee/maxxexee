@@ -1,4 +1,4 @@
-# Samuel Osho — Maxx
+# Who the f**k is this?
 
 **Solana protocol engineer.** Privacy infrastructure, real-time systems, technical writing.
 I ship on-chain products and write about the stack underneath them.
