@@ -5,7 +5,7 @@ I ship on-chain products and write about the stack underneath them.
 
 Lagos, Nigeria · WAT (UTC+1) · remote worldwide · **[open to protocol engineering and developer-education roles](mailto:oshosamuel86@gmail.com)**
 
-[Email](mailto:oshosamuel86@gmail.com) · [LinkedIn](https://linkedin.com/in/samuel-o-3809b42a9) · [Medium](https://medium.com/@fwmaxx) · [X](https://x.com/maxvrtx)
+[Email](mailto:oshosamuel86@gmail.com) · [LinkedIn](https://linkedin.com/in/samuel-o-3809b42a9) · [Medium](https://medium.com/@fwmaxx) · [X](https://x.com/maxxexee)
 
 ---
 
@@ -15,6 +15,7 @@ Four things, all shipped, all readable. Where a project is devnet or testnet, it
 
 | Project | What it does | Stage | Stack |
 |---|---|---|---|
+| **[Helius starter kit](https://github.com/maxxexee/helius-starter-kit)** | Three runnable demos for the Helius data platform, each documenting a measured behaviour instead of an assumed one. LaserStream `fromSlot` does not backfill slot updates; `createdAt` deltas arrive negative; `getAssetsByOwner` reports `total` as the page limit and truncates a 5,360-asset wallet to 1,000. | shipped, 65 tests | TypeScript, LaserStream, DAS |
 | **[Vanta](https://github.com/maxxexee/vanta-mobile)** | Android wallet where payments move through a Zolana shielded pool, so amount and recipient aren't derivable from chain data. Four payment modes, biometric gate, encrypted backup (scrypt + XChaCha20-Poly1305). | devnet, signed APK | Kotlin, React, Solana Mobile |
 | **[PulseLock](https://github.com/maxxexee/pulse-lock)** | Watches every Solana pool launch and trade live, scores each token 0–100 with a visible breakdown, alerts in ~100–400 ms. Read-only: no custody, no keys in the hot path. | **mainnet**, Fly.io | TypeScript, Yellowstone gRPC |
 | **[BlackRail](https://github.com/maxxexee/blackrail)** | Merchant payment gateway where addresses die after one use, so a business's revenue isn't a public ledger competitors can read. Flutterwave and Paystack alongside on-chain rails. | live API + portal | TypeScript, Express, Supabase |
@@ -48,8 +49,10 @@ Nine months on contract with the **Band Protocol** core team (Jul 2025 – Mar 2
 
 Competitions: **1st of 29** (Atlas, by thirdweb), **2nd of 98** (Palm USD, Superteam UAE), **2nd of 24** (Superteam Germany).
 
+My wallet-tracking framework was credited by name in [OneKey's "From $0 to $1M" guide](https://onekey.so/blog/ecosystem/from-0-to-1m-five-steps-to-outperform-with-wallet-tracking-20260207161629/), after being compiled and translated by community researchers at Foresight News.
+
 ---
 
 ## Elsewhere
 
-[Medium](https://medium.com/@fwmaxx) for the long-form writing · [X](https://x.com/maxvrtx) for build logs · [LinkedIn](https://linkedin.com/in/samuel-o-3809b42a9) if you're hiring
+[Medium](https://medium.com/@fwmaxx) for the long-form writing · [X](https://x.com/maxxexee) for build logs · [LinkedIn](https://linkedin.com/in/samuel-o-3809b42a9) if you're hiring
