@@ -2,7 +2,7 @@
 
 <sub>lagos / wat+1 / uplink stable</sub>
 
-# samuel o.
+# maxx.exe
 
 **solana protocol engineer**
 
