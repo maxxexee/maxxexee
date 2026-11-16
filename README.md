@@ -1,58 +1,69 @@
-# Who the f**k is this?
+<div align="center">
 
-**Solana protocol engineer.** Privacy infrastructure, real-time systems, technical writing.
-I ship on-chain products and write about the stack underneath them.
+<sub>lagos / wat+1 / uplink stable</sub>
 
-Lagos, Nigeria · WAT (UTC+1) · remote worldwide · **[open to protocol engineering and developer-education roles](mailto:oshosamuel86@gmail.com)**
+# samuel o.
 
-[Email](mailto:oshosamuel86@gmail.com) · [LinkedIn](https://linkedin.com/in/samuel-o-3809b42a9) · [Medium](https://medium.com/@fwmaxx) · [X](https://x.com/maxxexee)
+**solana protocol engineer**
 
----
+privacy rails, real-time systems, and the writing that explains them.
 
-## What I'm building
+<sub>[mail](mailto:oshosamuel86@gmail.com) / [x](https://x.com/maxxexee) / [medium](https://medium.com/@fwmaxx) / [linkedin](https://linkedin.com/in/samuel-o-3809b42a9)</sub>
 
-Four things, all shipped, all readable. Where a project is devnet or testnet, it says so.
+</div>
 
-| Project | What it does | Stage | Stack |
-|---|---|---|---|
-| **[Helius starter kit](https://github.com/maxxexee/helius-starter-kit)** | Three runnable demos for the Helius data platform, each documenting a measured behaviour instead of an assumed one. LaserStream `replay: false` silently discards `fromSlot` so a hand-rolled resume recovers nothing; `createdAt` deltas arrive negative; `getAssetsByOwner` reports `total` as the page limit and truncates a 5,360-asset wallet to 1,000. | shipped, 65 tests | TypeScript, LaserStream, DAS |
-| **[Vanta](https://github.com/maxxexee/vanta-mobile)** | Android wallet where payments move through a Zolana shielded pool, so amount and recipient aren't derivable from chain data. Four payment modes, biometric gate, encrypted backup (scrypt + XChaCha20-Poly1305). | devnet, signed APK | Kotlin, React, Solana Mobile |
-| **[PulseLock](https://github.com/maxxexee/pulse-lock)** | Watches every Solana pool launch and trade live, scores each token 0–100 with a visible breakdown, alerts in ~100–400 ms. Read-only: no custody, no keys in the hot path. | **mainnet**, Fly.io | TypeScript, Yellowstone gRPC |
-| **[BlackRail](https://github.com/maxxexee/blackrail)** | Merchant payment gateway where addresses die after one use, so a business's revenue isn't a public ledger competitors can read. Flutterwave and Paystack alongside on-chain rails. | live API + portal | TypeScript, Express, Supabase |
-| **[Stakely](https://github.com/maxxexee/Stakely)** | Two people bet each other with no bookmaker. Funds lock in an Anchor escrow program and settle from a TxLINE proof verified on-chain, leaving an auditable receipt. | devnet, WC26 hackathon | Anchor, Rust, React |
+```
+$ whoami
+a builder with a blog problem. i ship on-chain products, then write about the
+stack underneath them: blockchains, security, smart contracts, and whatever
+economics and law happen to be leaking into the network this week.
 
-Also: **[R3nzo](https://github.com/maxxexee/aml-compliance-agent)** — OFAC screening inside a Terminal 3 TEE, only the verdict leaves the enclave (testnet).
-**[AttestRWA](https://github.com/maxxexee/rwas-interoperability)** — RWA ownership proven on Ethereum, acted on by a Creditcoin contract, no bridge to drain.
+open to protocol engineering and developer-education work.
+```
 
 ---
 
-## How I work
+## /what's running
 
-- **Every claim is checkable.** Vanta's README has a "what this is not" section, because a privacy wallet that overstates itself is a liability. Its own code forbids the words *anonymous* and *untraceable*.
-- **I audit my own releases before shipping.** I ran an adversarial self-audit against the live Vanta APK over CDP, tracked 15 findings (3 critical, 6 high), and mapped each to remediation or explicit disclosure.
-- **I answer reviews line by line.** An unrequested external automated review of Vanta got a point-by-point response in the repo — real findings accepted, the rest disputed with file paths and line evidence.
-- **Honest about timing.** PulseLock's call cards show price at call → price now → peak since call. Most alert tools only publish the wins.
-
----
-
-## Stack
-
-**Daily:** TypeScript, Node.js, React, Solana, Anchor, Git, REST API design, technical writing
-**Strong:** Kotlin (Android), Solidity, Foundry, Express, Supabase/Postgres, OpenAPI + Zod, Docker, Vite
-**Working knowledge:** Rust, Python, SQL, Yellowstone gRPC, Drizzle, Tailwind, Telegram bots, Fly.io, Railway, GitHub Actions
+| project | what | stage |
+|---|---|---|
+| **[helius starter kit](https://github.com/maxxexee/helius-starter-kit)** | three demos, each documenting a measured lie. `replay: false` drops `fromSlot`, `createdAt` deltas go negative, `getAssetsByOwner` truncates at the page limit. | shipped / 65 tests |
+| **[vanta](https://github.com/maxxexee/vanta-mobile)** | android wallet paying through a zolana shielded pool. amount and recipient aren't derivable from chain data. the code itself bans the words *anonymous* and *untraceable*. | devnet / signed apk |
+| **[pulselock](https://github.com/maxxexee/pulse-lock)** | every solana launch, scored 0 to 100 with the breakdown showing, alerts in 100 to 400 ms. read-only, no custody. | mainnet / fly.io |
+| **[blackrail](https://github.com/maxxexee/blackrail)** | merchant gateway. addresses die after one use, so revenue isn't a public ledger. | live |
+| **[stakely](https://github.com/maxxexee/Stakely)** | two people bet each other. anchor escrow holds it, txline proof settles it. | devnet / hackathon |
+| **[r3nzo](https://github.com/maxxexee/aml-compliance-agent)** | ofac screening inside a T3 enclave. only the verdict leaves. | testnet |
+| **[attestRWA](https://github.com/maxxexee/rwas-interoperability)** | ownership proven on ethereum, acted on by creditcoin. no bridge to drain. | testnet |
 
 ---
 
-## Writing
+## /paper trail
 
-Nine months on contract with the **Band Protocol** core team (Jul 2025 – Mar 2026), turning oracle data feeds, cross-chain integrity and Cosmos SDK architecture into material developers can actually use. Monthly cadence of long-form engineering breakdowns, held inside a KPI-driven trial framework.
+band protocol core team, jul 2025 to mar 2026. oracle feeds, cross-chain
+integrity, cosmos sdk, turned into material a developer can use rather than
+admire. monthly cadence, held to a kpi.
 
-Competitions: **1st of 29** (Atlas, by thirdweb), **2nd of 98** (Palm USD, Superteam UAE), **2nd of 24** (Superteam Germany).
+competitions: **1st of 29** (atlas, thirdweb). **2nd of 98** (palm usd, superteam
+uae). **2nd of 24** (superteam germany).
 
-My wallet-tracking framework was credited by name in [OneKey's "From $0 to $1M" guide](https://onekey.so/blog/ecosystem/from-0-to-1m-five-steps-to-outperform-with-wallet-tracking-20260207161629/), after being compiled and translated by community researchers at Foresight News.
+a wallet-tracking framework, credited by name in onekey's "from $0 to $1M" after
+foresight news researchers compiled and translated it.
 
 ---
 
-## Elsewhere
+## /stack
 
-[Medium](https://medium.com/@fwmaxx) for the long-form writing · [X](https://x.com/maxxexee) for build logs · [LinkedIn](https://linkedin.com/in/samuel-o-3809b42a9) if you're hiring
+```
+daily:    typescript, node, react, solana, anchor
+strong:   kotlin, solidity, foundry, express, postgres, openapi + zod, docker
+working:  rust, python, sql, yellowstone grpc, fly.io, github actions
+```
+
+---
+
+```
+> nothing here is anonymous. nothing here is untraceable.
+> a claim is checkable or it doesn't ship.
+```
+
+<sub>the long-form lives on [medium](https://medium.com/@fwmaxx). the build logs live on [x](https://x.com/maxxexee).</sub>
